@@ -1,0 +1,81 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.header{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-image: url(img/sea.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    list-style: none;
+    background-size: cover;
+}
+
+.navbar{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.content{
+    width: 70%;
+    padding: 30px;
+    background-image: url(img/sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100%;
+}
+
+.list{
+    list-style: none;    
+}
+
+.linkss{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 15px 20px;
+
+}
+
+.titulo-principal{
+
+    font-size: 50px;
+    font-size: bold;
+}
+
+.video{
+    padding: 20px 20px;
+    margin-top: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
